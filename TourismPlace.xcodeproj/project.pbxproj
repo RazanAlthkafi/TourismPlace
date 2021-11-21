@@ -20,6 +20,8 @@
 		C356E0F1274A4D8C00923566 /* UserList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0EB274A4D8C00923566 /* UserList+CoreDataProperties.swift */; };
 		C356E0F6274A4E2A00923566 /* Registers+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0F4274A4E2A00923566 /* Registers+CoreDataClass.swift */; };
 		C356E0F7274A4E2A00923566 /* Registers+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0F5274A4E2A00923566 /* Registers+CoreDataProperties.swift */; };
+		C356E0F9274A52ED00923566 /* Home Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0F8274A52ED00923566 /* Home Page.swift */; };
+		C356E0FB274A5D9500923566 /* imagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0FA274A5D9500923566 /* imagesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		C356E0EB274A4D8C00923566 /* UserList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C356E0F4274A4E2A00923566 /* Registers+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Registers+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C356E0F5274A4E2A00923566 /* Registers+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Registers+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C356E0F8274A52ED00923566 /* Home Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home Page.swift"; sourceTree = "<group>"; };
+		C356E0FA274A5D9500923566 /* imagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				C356E0DF274A4BAC00923566 /* LaunchScreen.storyboard */,
 				C356E0E2274A4BAC00923566 /* Info.plist */,
 				C356E0DA274A4BA800923566 /* TourismPlace.xcdatamodeld */,
+				C356E0F8274A52ED00923566 /* Home Page.swift */,
+				C356E0FA274A5D9500923566 /* imagesCell.swift */,
 			);
 			path = TourismPlace;
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C356E0F0274A4D8C00923566 /* UserList+CoreDataClass.swift in Sources */,
+				C356E0FB274A5D9500923566 /* imagesCell.swift in Sources */,
 				C356E0D6274A4BA800923566 /* ViewController.swift in Sources */,
 				C356E0F7274A4E2A00923566 /* Registers+CoreDataProperties.swift in Sources */,
 				C356E0DC274A4BA800923566 /* TourismPlace.xcdatamodeld in Sources */,
@@ -167,6 +174,7 @@
 				C356E0EE274A4D8C00923566 /* Places+CoreDataClass.swift in Sources */,
 				C356E0D4274A4BA800923566 /* SceneDelegate.swift in Sources */,
 				C356E0F1274A4D8C00923566 /* UserList+CoreDataProperties.swift in Sources */,
+				C356E0F9274A52ED00923566 /* Home Page.swift in Sources */,
 				C356E0EF274A4D8C00923566 /* Places+CoreDataProperties.swift in Sources */,
 				C356E0F6274A4E2A00923566 /* Registers+CoreDataClass.swift in Sources */,
 			);
