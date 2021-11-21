@@ -14,6 +14,12 @@
 		C356E0DC274A4BA800923566 /* TourismPlace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C356E0DA274A4BA800923566 /* TourismPlace.xcdatamodeld */; };
 		C356E0DE274A4BAC00923566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C356E0DD274A4BAC00923566 /* Assets.xcassets */; };
 		C356E0E1274A4BAC00923566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C356E0DF274A4BAC00923566 /* LaunchScreen.storyboard */; };
+		C356E0EE274A4D8C00923566 /* Places+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0E8274A4D8C00923566 /* Places+CoreDataClass.swift */; };
+		C356E0EF274A4D8C00923566 /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0E9274A4D8C00923566 /* Places+CoreDataProperties.swift */; };
+		C356E0F0274A4D8C00923566 /* UserList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0EA274A4D8C00923566 /* UserList+CoreDataClass.swift */; };
+		C356E0F1274A4D8C00923566 /* UserList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0EB274A4D8C00923566 /* UserList+CoreDataProperties.swift */; };
+		C356E0F2274A4D8C00923566 /* Register+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0EC274A4D8C00923566 /* Register+CoreDataClass.swift */; };
+		C356E0F3274A4D8C00923566 /* Register+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356E0ED274A4D8C00923566 /* Register+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		C356E0DD274A4BAC00923566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C356E0E0274A4BAC00923566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C356E0E2274A4BAC00923566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C356E0E8274A4D8C00923566 /* Places+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Places+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C356E0E9274A4D8C00923566 /* Places+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Places+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C356E0EA274A4D8C00923566 /* UserList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C356E0EB274A4D8C00923566 /* UserList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C356E0EC274A4D8C00923566 /* Register+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C356E0ED274A4D8C00923566 /* Register+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,12 @@
 		C356E0C5274A4BA800923566 = {
 			isa = PBXGroup;
 			children = (
+				C356E0E8274A4D8C00923566 /* Places+CoreDataClass.swift */,
+				C356E0E9274A4D8C00923566 /* Places+CoreDataProperties.swift */,
+				C356E0EA274A4D8C00923566 /* UserList+CoreDataClass.swift */,
+				C356E0EB274A4D8C00923566 /* UserList+CoreDataProperties.swift */,
+				C356E0EC274A4D8C00923566 /* Register+CoreDataClass.swift */,
+				C356E0ED274A4D8C00923566 /* Register+CoreDataProperties.swift */,
 				C356E0D0274A4BA800923566 /* TourismPlace */,
 				C356E0CF274A4BA800923566 /* Products */,
 			);
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C356E0F2274A4D8C00923566 /* Register+CoreDataClass.swift in Sources */,
+				C356E0F0274A4D8C00923566 /* UserList+CoreDataClass.swift in Sources */,
+				C356E0F3274A4D8C00923566 /* Register+CoreDataProperties.swift in Sources */,
 				C356E0D6274A4BA800923566 /* ViewController.swift in Sources */,
 				C356E0DC274A4BA800923566 /* TourismPlace.xcdatamodeld in Sources */,
 				C356E0D2274A4BA800923566 /* AppDelegate.swift in Sources */,
+				C356E0EE274A4D8C00923566 /* Places+CoreDataClass.swift in Sources */,
 				C356E0D4274A4BA800923566 /* SceneDelegate.swift in Sources */,
+				C356E0F1274A4D8C00923566 /* UserList+CoreDataProperties.swift in Sources */,
+				C356E0EF274A4D8C00923566 /* Places+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
